@@ -4,7 +4,7 @@ description: 'Chapter description goes here.'
 free_preview: true
 ---
 
-## Insert exercise title here
+## test
 
 ```yaml
 type: TabExercise
@@ -25,6 +25,36 @@ Before we get started, load the tidyverse package which contains the dplyr packa
 
 `@pre_exercise_code`
 ```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 1285c370b0
+xp: 100
+```
+
+`@instructions`
+test test test test test
+
+`@hint`
+nah
+
+`@sample_code`
+```{r}
 install.packages("tidyverse")
 library(tidyverse)
+```
+
+`@solution`
+```{r}
+install.packages("tidyverse")
+library(tidyverse)
+```
+
+`@sct`
+```{r}
+ex() %>% check_library("tidyverse")
 ```
